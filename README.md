@@ -9,7 +9,11 @@ This is just some sample code to get you going if you are interested in playing 
  npm run start
 `
 Installs deps, and runs the webpack-dev-server. 
+
+
 `npm run build`
+
+
 Will uglify/minify the bundle. 
 
 
