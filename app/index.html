@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue</title>
+  </head>
+  <body>
+  	<script>
+  		window.variable = 'window.variable access from index.html inline script';
+  	</script>
+    <div id="app">
+      {{message}}
+      <ul>
+      	<todo-item v-for="todo in todos" v-bind:todo="todo"></todo-item>
+      </ul>
+      <div class="jqme"></div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
